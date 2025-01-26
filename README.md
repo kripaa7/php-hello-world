@@ -106,6 +106,6 @@ sudo docker-compose up -d
 ![image](images/dockerhub.png)
 
 **Docker images and containers:**
-![image](images/docker%20images%20and%20containers.png.png)
+![image](images/docker%20images%20and%20containers.png)
 ## Conclusion
 This project successfully sets up a Dockerized PHP application, pushes the image to Docker Hub, and runs it using Docker Compose. Following this guide will allow anyone to replicate the setup on their own environment.
