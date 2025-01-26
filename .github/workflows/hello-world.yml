@@ -1,0 +1,17 @@
+name: Hello World Workflow
+
+on:
+  push:
+    branches:
+      - master  # Runs only when code is pushed to the master branch
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3  # Checks out the repository
+
+      - name: Print Hello World
+        run: echo "Hello, World!"
