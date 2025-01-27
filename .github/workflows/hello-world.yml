@@ -3,7 +3,7 @@ name: Hello World Workflow
 on:
   push:
     branches:
-      - master  # Runs only when code is pushed to the master branch
+      - main  # Runs only when code is pushed to the master branch
 
 jobs:
   say-hello:
