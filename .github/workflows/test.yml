@@ -3,7 +3,7 @@ name: Hello World Workflow
 on:
   push:
     branches:
-      - main  # Runs only when code is pushed to the master branch
+      - main
 
 jobs:
   say-hello:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3  # Checks out the repository
+        uses: actions/checkout@v3
 
       - name: Print Hello World
         run: echo "Hello, World!"
